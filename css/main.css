@@ -1,0 +1,522 @@
+body {
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+	color:#F0F1DC;
+}
+
+/*TOP BAR*/
+.top-bar {
+	background: #44250B;
+	height: 50px;
+}
+
+.top-bar img {
+	height: 300px;
+	position: relative;
+	top: -90px;
+	left: -55px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button) {
+	background: #44250B;
+}
+
+.top-bar-section ul li > a {
+	font-family: 'Josefin Sans', sans-serif;
+	letter-spacing: 1px;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+	background-color: #A2754A;
+}
+
+@media screen and (min-width:47.5rem){
+	.top-bar img {
+	height: 300px;
+	position: relative;
+	top: -75px;
+	left: -70px;
+
+	}
+}
+
+/*CAMP GRANADA HEADERS*/
+.text-image {
+	height: 60px;
+	padding-top: 0;
+}
+
+@media screen and (min-width:47.5rem){
+	.text-image {
+	height: 100px;
+	padding-top: 0;
+	}
+}	
+/*HERO*/
+.hero {
+	height: 45%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.hero .logo {
+	position: absolute;
+	width: 40%;
+	top: 57%;
+	left: 50%;
+	z-index: 1;
+	transform: translate(-50%,-50%);
+	opacity: 0.5;
+}
+
+@media screen and (min-width:47.5rem){
+	.hero {
+	height: 70%;
+	width: 100%;
+	overflow: hidden;
+	position: relative;
+	}
+}
+
+/*MOVE SECTION*/
+
+.move {
+	padding-top: 1.5rem;
+	background-color: #A2754A;
+	color: #F0F1DC;
+}
+
+.move p {
+	font-size: .8rem;
+}
+
+.move .rent{
+	width: 20%;
+	padding-top: 0;
+	padding-bottom: .5rem;
+}
+
+.move .hike{
+	width: 38%;
+	padding-top: 22px;
+	padding-bottom: .7rem;
+}
+
+.move .swim {
+	width: 38%;
+	padding-top: 15px;
+	padding-bottom: .7rem;
+}
+
+.move .climb {
+	width: 38%;
+	padding-top: 20px;
+	padding-bottom: .7rem;
+}
+
+.move .icon {
+	display: block;
+	height: 45px;
+	position: relative;
+	top: 50px;
+	left: 85px;
+}
+
+.move .canoe.icon {
+	display: block;
+	height: 45px;
+	position: relative;
+	top: 50px;
+	left: 85px;
+}
+
+.move .compass.icon {
+	height: 30px;
+	position: relative;
+	top: 50px;
+	left: 85px;
+}
+
+.move .lifesaver.icon {
+	height: 30px;
+	position: relative;
+	top: 50px;
+	left: 95px;
+}
+
+.move .climb_tools.icon {
+	height: 30px;
+	position: relative;
+	top: 50px;
+	left: 110px;
+}
+
+@media screen and (min-width:47.5rem){
+	.move {
+	padding-top: 3rem;
+	background-color: #A2754A;
+	color: #F0F1DC;
+	}
+
+	.move p {
+	padding-bottom: 2px;
+	font-size: 1.1rem;
+	}
+
+	.move .rent{
+	width: 40%;
+	padding-top: 0;
+	padding-bottom: .5rem;
+	}
+
+	.move .hike{
+	width: 70%;
+	padding-top: 25px;
+	padding-bottom: .7rem;
+	}
+
+	.move .swim {
+	width: 70%;
+	padding-top: 15px;
+	padding-bottom: .7rem;
+	}
+
+	.move .climb {
+	width: 70%;
+	padding-top: 20px;
+	padding-bottom: .7rem;
+	}
+
+	.move .icon {
+	display: block;
+	height: 55px;
+	}
+
+	.move .canoe.icon {
+		height: 70px;
+		position: relative;
+		top: 5px;
+		left: 5px;
+	}
+
+	.move .compass.icon {
+	height: 40px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	}
+
+	.move .lifesaver.icon {
+	height: 40px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	}
+
+	.move .climb_tools.icon {
+	height: 40px;
+	position: relative;
+	top: 5px;
+	left: 5px;
+	}
+}
+
+/*GRAZE SECTION*/
+.graze {
+	padding-bottom: 30px;
+	padding-top: 1.5rem;
+	background-color: #7A9178;
+	color: #F0F1DC;
+	text-align: right;
+}
+
+.graze h2 {
+	color: #F0F1DC;
+}
+
+.graze p {
+	font-size: .8rem;
+}
+
+.restaurant.row {
+	max-width: none;
+	padding: 30px;
+	padding-bottom: 0;
+}
+
+.restaurant .column {
+	padding: 0;
+}
+
+@media screen and (min-width:47.5rem){
+	.graze {
+	padding-bottom: 30px;
+	padding-top: 3rem;
+	background-color: #7A9178 /*#4F704B*/;
+	color: #F0F1DC;
+	text-align: right;
+}
+
+.graze h2 {
+	color: #F0F1DC;
+}
+
+.graze p {
+	font-size: 1.1rem;
+}
+
+.restaurant.row {
+	max-width: none;
+	padding: 30px;
+	padding-bottom: 0;
+}
+
+.restaurant .column {
+	padding: 0;
+}
+}
+
+/*RELAX SECTION*/
+.relax {
+	padding-top: 1.5rem;
+	padding-bottom: 2rem;
+	background-color: #751815;
+	color: #F0F1DC;
+}
+
+.relax h2 {
+	color: #F0F1DC;
+}
+
+.relax p {
+	font-size: .8rem;
+}
+
+@media screen and (min-width:47.5rem){
+	.relax {
+	padding: 3rem 0;
+	background-color: #751815;
+	color: #F0F1DC;
+}
+
+.relax h2 {
+	color: #F0F1DC;
+}
+
+.relax p {
+	font-size: 1.1rem;
+}
+}
+
+/*BOOK SECTION*/
+.book {
+	padding-top: 1.5rem;
+	background-color: #421615;
+	color: #F0F1DC;
+}
+
+.book p {
+	font-size: .8rem;
+}
+
+table {
+	width: 100%;
+	color: #F0F1DC;
+	border: none;
+	background: none;
+}
+.reveal-modal {
+	background: url("../img/campfire_restaurant.jpg") no-repeat top center;
+	border: solid 2px #F0F1DC;
+	height: 30px;
+	width: 100%;
+}
+
+.reveal-modal h2 {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 900;
+	color: #ffffff;
+	font-size: 2rem;
+}
+
+.reveal-modal p {
+	font-family: 'Josefin Sans', sans-serif;
+	font-weight: 500;
+	color: #ffffff;
+	font-size: .8rem;
+}
+
+.reveal-modal .close-reveal-modal {
+	background-image: url(../img/campfire_restaurant.jpg) no-repeat bottom center;
+}
+
+table thead tr th, table thead tr td {
+	color: #F0F1DC;
+}
+
+table .button {
+	background: #421615;
+	color: #F0F1DC;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+table .button:hover {
+	background: #693030;
+	color: #F0F1DC;
+}
+
+button, .button {
+	background-color: ;
+	border-color: #421615;
+	color: #421615;
+	transition: background-color 300ms ease-out;	
+}
+
+.datepicker td span.active, .datepicker td.active.day, .datepicker td.active.year {
+	background: #421615;
+}
+
+table thead {
+	background: #330705;
+}
+
+@media screen and (min-width:47.5rem){
+	.book {
+		padding: 3rem 0;
+		padding-left: 0;
+		background-color: #421615;
+		color: #F0F1DC;
+	}
+
+	.book p {
+		font-size: 1.1rem;
+	}
+
+	table {
+		width: 100%;
+		color: #F0F1DC;
+		border: none;
+		background: none;
+		margin-top: 95px;
+		margin-left: 50px;
+	}
+	.reveal-modal {
+		background: url("../img/campfire_restaurant.jpg") no-repeat bottom center;
+		border: solid 2px #F0F1DC;
+		height: 50%;
+		width: 50%;
+	}
+
+	.reveal-modal h2 {
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 900;
+		color: #ffffff;
+		font-size: 2rem;
+	}
+
+	.reveal-modal p {
+		font-family: 'Josefin Sans', sans-serif;
+		font-weight: 500;
+		color: #ffffff;
+		font-size: .8rem;
+	}
+
+	.reveal-modal .close-reveal-modal {
+		background-image: url(../img/campfire_restaurant.jpg) no-repeat bottom center;
+	}
+
+	table thead tr th, table thead tr td {
+		color: #F0F1DC;
+	}
+
+	table .button {
+		background: #421615;
+		color: #F0F1DC;
+		font-family: 'Josefin Sans', sans-serif;
+	}
+
+	table .button:hover {
+		background: #693030;
+		color: #F0F1DC;
+	}
+
+	button, .button {
+		background-color: ;
+		border-color: #421615;
+		color: #421615;
+		transition: background-color 300ms ease-out;	
+	}
+
+	.datepicker td span.active, .datepicker td.active.day, .datepicker td.active.year {
+		background: #421615;
+	}
+
+	table thead {
+		background: #330705;
+	}
+}
+/*FOOTER SECTION*/
+footer {
+	padding: 1rem;
+    overflow: hidden;
+    background-image: url(../img/dead_leaves3.jpg);
+    color: #F0F1DC;
+}
+
+footer p {
+	line-height: 33px;
+	font-size: .8rem;
+	text-align: center;
+}
+
+footer li {
+	list-style-type: none;
+	display: inline-block;
+	text-decoration: none;
+	color: #F0F1DC;
+	margin: 0;
+}
+.social-media li {
+	font-size: 2.5rem;
+	padding-left: 4rem;
+}
+
+.fa {
+	color: #F0F1DC;
+	position: relative;
+	right: 110%;
+}
+
+@media screen and (min-width:47.5rem){
+	footer {
+		padding: 1rem;
+	    overflow: hidden;
+	    font-weight: 300;
+	    background-image: url(../img/dead_leaves3.jpg);
+	    color: #F0F1DC;
+	}
+
+	footer p {
+		line-height: 33px;
+		font-size: 1rem;
+		text-align: left;
+	}
+
+	footer li {
+		list-style-type: none;
+		display: inline-block;
+		text-decoration: none;
+		color: #F0F1DC;
+		margin: 0;
+		text-align: right;
+	}
+	.social-media li {
+		font-size: 1.5rem;
+		padding-left: .5rem; 
+	}
+	.fa {
+		color: #F0F1DC;
+	}
+}
+}
